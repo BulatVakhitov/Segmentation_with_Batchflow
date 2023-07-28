@@ -1,0 +1,10 @@
+[TYPECHECK]
+
+# List of members which are set dynamically and missed by Pylint inference
+# system, and so shouldn't trigger E1101 when accessed.
+generated-members=numpy.*, torch.*
+
+[BASIC]
+
+# Good variable names which should always be accepted, separated by a comma
+good-names=x,x1,x2,x3,x4,x5
